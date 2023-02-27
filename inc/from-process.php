@@ -20,10 +20,10 @@ if ( $_SERVER[ "REQUEST_METHOD" ] === "POST" && $_POST[ 'submit' ] === "Send" ) 
             </div>
             <?php
         } else {
-            echo "<pre>Field's is empty. Unable to Submit.</pre>";
+            echo "<pre>Field's is required and cannot be empty</pre>";
         }
     } else {
-        echo "<pre>Person Class Not exits.</pre>";
+        echo "<pre>Class Person not found.</pre>";
     }
 
 }

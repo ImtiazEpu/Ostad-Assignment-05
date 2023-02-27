@@ -69,9 +69,9 @@
             <form method="POST">
                 <fieldset>
                     <label for="nameField">Name</label>
-                    <input type="text" name="name" placeholder="Enter you name" id="nameField">
+                    <input type="text" name="name" placeholder="Enter you name" id="nameField" required>
                     <label for="emilField">Email</label>
-                    <input type="email" name="email" placeholder="example@mail.com" id="emilField">
+                    <input type="email" name="email" placeholder="example@mail.com" id="emilField" required>
                     <input style="width: 100%" class="button-primary" type="submit" name="submit" value="Send">
                 </fieldset>
             </form>
